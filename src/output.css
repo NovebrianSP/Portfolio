@@ -934,6 +934,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
   .sm\:h-64 {
     height: 16rem;
   }
