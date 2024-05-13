@@ -974,6 +974,10 @@ video {
     padding-top: 2.5rem;
   }
 
+  .md\:pt-9 {
+    padding-top: 2.25rem;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
