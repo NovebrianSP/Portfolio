@@ -18,20 +18,38 @@
                     <a class="font-bold text-lg text-content block py-6" href="#main">Novebrian</a>
                 </div>
                 <div class="flex items-center px-4">
-                    <button id="ham" name="ham" type="button" class="block absolute right-4">
-                        <span class="ham-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <button id="ham" name="ham" type="button" class="absolute right-4 block lg:hidden">
+                        <span class="ham-line origin-top-left transition duration-300 ease-in-out"></span>
                         <span class="ham-line transition duration-300 ease-in-out"></span>
-                        <span class="ham-line transition duration-300 ease-in-out origin-bottom-left"></span>
-                    </button>
+                        <span class="ham-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                      </button>
 
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full">
-                        <ul class="block">
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#main" class="text-base text-dark py-2 mx-8 hover:text-content">Beranda</a>
+                                <a href="#main"
+                                    class="text-base text-dark py-2 mx-8 flex hover:text-content">Beranda</a>
                             </li>
                             <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 hover:text-content">About Me</a>
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex hover:text-content">About
+                                    Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portflio"
+                                    class="text-base text-dark py-2 mx-8 flex hover:text-content">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex hover:text-content">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog"
+                                    class="text-base text-dark py-2 mx-8 flex hover:text-content">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base text-dark py-2 mx-8 flex hover:text-content">Contact</a>
                             </li>
                         </ul>
                     </nav>
