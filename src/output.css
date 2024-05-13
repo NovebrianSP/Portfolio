@@ -954,6 +954,19 @@ video {
     width: 16rem;
   }
 
+  .sm\:border {
+    border-width: 1px;
+  }
+
+  .sm\:border-r {
+    border-right-width: 1px;
+  }
+
+  .sm\:border-slate-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(148 163 184 / var(--tw-border-opacity));
+  }
+
   .sm\:pt-10 {
     padding-top: 2.5rem;
   }
