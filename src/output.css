@@ -938,6 +938,14 @@ video {
     margin-top: 2.25rem;
   }
 
+  .sm\:mb-9 {
+    margin-bottom: 2.25rem;
+  }
+
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .sm\:h-64 {
     height: 16rem;
   }
