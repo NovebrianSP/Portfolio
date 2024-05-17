@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brian's Portfolio</title>
-  <link rel="stylesheet" href="dist/final.css">
+  <link rel="stylesheet" href="src/output.css">
   <link rel="icon" type="image/png" href="src/img/rocket-biru.svg">
   <script>
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -85,7 +85,7 @@
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full self-center px-4 lg:w-1/2 sm:mb-10">
-          <h1 class="text-base font-semibold text-content md:text-xl">Hi !! 👋, nama saya <span
+          <h1 class="text-base font-semibold text-content md:text-xl dark:text-blob">Hi !! 👋, nama saya <span
               class="block font-bold text-dark text-4xl lg:text-5xl dark:text-white">Novebrian Setya Purwanto</span>
           </h1>
           <h2 class="font-medium text-lg mb-5 lg:text-2xl text-dark dark:text-white">Web Developer <span
@@ -98,7 +98,7 @@
           </blockquote>
 
           <a href="#contact"
-            class="text-base font-semibold text-white bg-content py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out sm:border sm:border-slate-400">Hubungi
+            class="text-base font-semibold text-white bg-content py-3 px-8 rounded-full hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out sm:border sm:border-slate-400 dark:bg-blob">Hubungi
             Saya</a>
         </div>
 
@@ -107,8 +107,8 @@
             <img src="src/img/img.png" alt="Novebrian" class="max-w-full mx-auto relative z-10" />
             <span class="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
               <svg width="500" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path fill="#10b981"
-                  d="M45.6,-30.2C52.9,-13.6,48.4,5.9,38.9,21.4C29.3,36.9,14.7,48.5,-0.8,49C-16.4,49.5,-32.7,38.9,-45.4,21.6C-58.1,4.2,-67.1,-19.9,-58.9,-37C-50.7,-54.1,-25.4,-64.2,-3.1,-62.4C19.1,-60.6,38.2,-46.8,45.6,-30.2Z"
+                <path class="dark:fill-blob" fill="#00224D"
+                  d="M49.6,-41.1C60.1,-26.4,61.5,-6,58.8,16.5C56.1,39,49.3,63.6,32.6,74.2C15.8,84.8,-10.8,81.3,-32.4,69.9C-54,58.5,-70.5,39.2,-76.7,16.3C-82.9,-6.6,-78.9,-33.1,-64.4,-48.8C-49.8,-64.4,-24.9,-69.2,-2.7,-67.1C19.6,-64.9,39.1,-55.9,49.6,-41.1Z"
                   transform="translate(100 100) scale(1.1)" />
               </svg>
             </span>
@@ -124,7 +124,7 @@
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full px-4 mb-10 lg:w-1/2">
-          <h4 class="font-bold uppercase text-content text-lg mb-3">Tentang Saya</h4>
+          <h4 class="font-bold uppercase text-content text-lg mb-3 dark:text-blob">Tentang Saya</h4>
           <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">Junior Web Developer</h2>
           <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah seorang Junior Web Developer
             yang memiliki pengalaman web programming selama 2,5 tahun. Saya menguasai beberapa bahasa pemrograman
@@ -190,7 +190,7 @@
     <div class="container">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-16">
-          <h4 class="font-semibold text-lg mb-2 text-content">Portfolio</h4>
+          <h4 class="font-semibold text-lg mb-2 text-content dark:text-blob">Portfolio</h4>
           <h2 class="font-bold text-3xl mb-2 text-dark sm:text-4xl lg:text-5xl dark:text-white">Proyek Yang Pernah Saya
             Buat</h2>
           <p class="font-medium text-md text-secondary md:text-lg">Berikut adalah proyek-proyek yang pernah saya buat
@@ -235,7 +235,7 @@
     <div class="container">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-16">
-          <h4 class="font-semibold text-lg mb-2 text-content">Kontak</h4>
+          <h4 class="font-semibold text-lg mb-2 text-content dark:text-blob">Kontak</h4>
           <h2 class="font-bold text-3xl mb-2 text-dark sm:text-4xl lg:text-5xl dark:text-white">Hubungi Saya</h2>
           <p class="font-medium text-md text-secondary md:text-lg">Anda dapat menghubungi saya melalui email dengan cara
             mengisi form berikut</p>
@@ -260,7 +260,7 @@
         </div>
 
         <div class="w-full px-4 mb-12 text-slate-300 md:w-1/3">
-          <h3 class="font-semibold text-white mb-5 text-xl">Occupation</h3>
+          <h3 class="font-semibold text-white mb-5 text-xl">Profil Singkat</h3>
           <p>Seorang mahasiswa aktif di Universitas Amikom Yogyakarta, program studi S1-Sistem Informasi</p>
         </div>
 
@@ -277,7 +277,7 @@
               <a href="#portfolio" class="inline-block text-base hover:text-content mb-3">Portfolio</a>
             </li>
             <li>
-              <a href="#contact" class="inline-block text-base hover:text-content mb-3">Contact</a>
+              <a href="#contact" class="inline-block text-base hover:text-content mb-3">Kontak</a>
             </li>
           </ul>
         </div>
@@ -328,7 +328,7 @@
         </div>
       </div>
       <p class="font-medium text-xs text-slate-500 text-center">Dibuat oleh <a target="_blank"
-          class="font-bold text-content" href="http://Instagram.com/notvebrian">Novebrian Setya Purwanto</a>,
+          class="font-bold text-blob" href="http://Instagram.com/notvebrian">Novebrian Setya Purwanto</a>,
         menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a>.
       </p>
     </div>

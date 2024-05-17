@@ -9,9 +9,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        content:'#10b981',
+        content:'#00224D',
         secondary: '#64748b',
         dark:'#0f172a',
+        blob: '#C9806A',
       },
       
       screens:{
